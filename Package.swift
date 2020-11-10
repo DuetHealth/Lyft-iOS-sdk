@@ -12,6 +12,6 @@ let package = Package(
         .library(name: "LyftSDK", targets: ["LyftSDK"])
     ],
     targets: [
-        .target(name: "LyftSDK", dependencies: [])
+        .target(name: "LyftSDK", dependencies: [], path: "Sources")
     ]
 )

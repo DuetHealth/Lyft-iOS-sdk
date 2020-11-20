@@ -165,7 +165,7 @@ public class LyftButton: UIView {
     }
 
     private func buttonStateView(withNibName nibName: String) -> UIView? {
-        let nib = UINib(nibName: nibName, bundle: Bundle(for: type(of: self)))
+        let nib = UINib(nibName: nibName, bundle: .main)
         let topLevelViews = nib.instantiate(withOwner: self, options: nil)
         return topLevelViews.first as? UIView
     }

@@ -45,7 +45,7 @@ public class LyftButton: UIView {
     private var buttonStateView: UIView?
     private var pressUpAction: (() -> Void)?
     /// hook into recording analytics when a user taps the request button.
-    var pressUpActionHook: (() -> Void)?
+    public var pressUpActionHook: (() -> Void)?
 
     private var status: LyftButtonStatus = .noData {
         didSet { self.setupNib() }

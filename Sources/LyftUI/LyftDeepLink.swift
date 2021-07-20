@@ -21,7 +21,8 @@ public enum LyftDeepLinkBehavior {
     }
 }
 
-/// Collection of deep links into the main Lyft application
+/// Collection of deep links into the main Lyft application.
+@available(iOSApplicationExtension, unavailable)
 public struct LyftDeepLink {
     /// Prepares to request a ride with the given parameters
     ///

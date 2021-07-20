@@ -33,6 +33,7 @@ private enum LyftButtonStatus {
 
 /// Primary view container for LyftButton.  All styling and automatic configuration functions are here.
 /// To use this, create a UIView, and set the custom class to `LyftButton`
+@available(iOSApplicationExtension, unavailable)
 @IBDesignable
 public class LyftButton: UIView {
     @IBOutlet private var button: Button!

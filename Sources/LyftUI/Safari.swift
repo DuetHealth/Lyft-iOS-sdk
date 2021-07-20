@@ -1,5 +1,6 @@
 import SafariServices
 
+@available(iOSApplicationExtension, unavailable)
 struct Safari {
     /// Opens a given URL in Safari or a Safari view controller based on the OS version.
     ///
